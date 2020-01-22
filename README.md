@@ -10,7 +10,7 @@
      1)(for linux) python3.7 proba_rtcp.py
      2)(масдайка) python proba_rtcp.py
      3) насолоджуємся гарним вікном з потоковим відео
- 6) запускаєм сервер http:
+ 6) запускаєм сервер http: 
     1) переходим в течко browser_rtcp
     2) там виконуєм команду:
         1) (ліня) python3.7 manage.py runserver
