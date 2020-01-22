@@ -7,8 +7,8 @@
     1) (for linux) python3.7 - m pip install -r requirements.txt
     2) (for масдайки) pip install -r requirements.txt
 5) запускаєм сервер командою (до речі, посилання на Ваше потокове відео не працює):
-     1)(for linux) python3.7 proba_rtcp.py
-     2)(масдайка) python proba_rtcp.py
+     1) (for linux) python3.7 proba_rtcp.py
+     2) (масдайка) python proba_rtcp.py
      3) насолоджуємся гарним вікном з потоковим відео
  6) запускаєм сервер http: 
     1) переходим в течко browser_rtcp
