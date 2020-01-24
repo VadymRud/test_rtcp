@@ -19,7 +19,7 @@ while(cap.isOpened()):
     cv2.imshow('frame',gray)
     cv2.resizeWindow('frame', int(cap.get(3)), int(cap.get(4)))
     # set file path
-    dirname = 'd:\\Projects\\test_rtcp\\browser_rtcp\\static'
+    dirname = 'd:\\Projects\\test_rtcp\\test_kness\\static'
     cv2.imwrite(os.path.join(dirname,'screen.png'), frame, [int(cv2.IMWRITE_JPEG_QUALITY), 100])
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
