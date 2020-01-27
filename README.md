@@ -9,6 +9,8 @@
 5) еспортуєм данні з файлу командою:
      python manage.py fromcsvtodb filecsv filename name_table_in_db
 
+6) для опитування таблиці запускаєм командо:
+     python manage.py startquery
 
 ## 2ге завдання:
 1) ставим python 3.7 (він асинхронний з коробки)  

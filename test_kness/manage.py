@@ -5,6 +5,11 @@ import sys
 import time
 
 
+def ciklus():
+    while True:
+        print('huy')
+        time.sleep(3)
+
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'test_kness.settings')
     try:
