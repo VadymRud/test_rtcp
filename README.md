@@ -1,4 +1,15 @@
 # Тестове для Kness
+## перше завданя:
+1) ставим python 3.7 (він асинхронний з коробки)  
+2) ставим pip
+3) качаєм цей говнокод
+4) виконуєм командо: 
+    1) (for linux) python3.7 - m pip install -r requirements.txt
+    2) (for масдайки) pip install -r requirements.txt
+5) еспортуєм данні з файлу командою:
+     python manage.py fromcsvtodb filecsv filename name_table_in_db
+
+
 ## 2ге завдання:
 1) ставим python 3.7 (він асинхронний з коробки)  
 2) ставим pip
