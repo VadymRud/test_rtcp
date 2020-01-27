@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
 from testdbs.models import  Rtu, AiDesc, BiDesc
+from pprint import pprint
 
 
 class Command(BaseCommand):
@@ -8,8 +9,10 @@ class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('filecsv', nargs='+', type=str)
 
+
     def handle(self, *args, **options):
-        pass
+        print(options['filecsv'])
+        
         # # for poll_id in options['poll_ids']:
         # #     try:
         # #         poll = Poll.objects.get(pk=poll_id)

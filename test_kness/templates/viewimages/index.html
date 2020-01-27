@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Відяшка</title>
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}"/>
+
+    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="div_cart" />
+        <img src="" id="cortinko2">
+
+</body>
+
+
+<script>
+function explode(){
+
+  //alert('')
+  var d = new Date();
+    $("#cortinko2").attr("src", "{% static 'screen.png' %}?"+d.getTime());
+}
+setInterval(explode, 300000);
+</script>
+
+</html>
